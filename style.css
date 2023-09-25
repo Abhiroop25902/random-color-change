@@ -1,0 +1,25 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#screen {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 10px 10px 10px;
+}
+
+#button:active {
+  border-style: none;
+}
