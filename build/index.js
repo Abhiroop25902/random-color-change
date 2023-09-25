@@ -17,6 +17,6 @@ function generateRandomColor() {
     return color;
 }
 function changeBackGroundColor() {
-    document.body.style.backgroundColor = generateRandomColor();
+    $("body").css("background-color", generateRandomColor());
 }
 changeBackGroundColor();
