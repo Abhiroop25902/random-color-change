@@ -19,4 +19,8 @@ function generateRandomColor() {
 function changeBackGroundColor() {
     $("body").css("background-color", generateRandomColor());
 }
-changeBackGroundColor();
+// execute when the document is ready
+jQuery(() => {
+    changeBackGroundColor();
+    setTimeout(() => $("body").css("transition", "background-color 1000ms ease-in-out"), 10);
+});
